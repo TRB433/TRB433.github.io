@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\2d8bab32b01527593f5b7cd79b61b01a\nuget-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\2d8bab32b01527593f5b7cd79b61b01a\nuget-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\2d8bab32b01527593f5b7cd79b61b01a\nuget-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\2d8bab32b01527593f5b7cd79b61b01a\nuget-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\2d8bab32b01527593f5b7cd79b61b01a\nuget-populate-copyfile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\2d8bab32b01527593f5b7cd79b61b01a\nuget-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\2d8bab32b01527593f5b7cd79b61b01a\nuget-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\2d8bab32b01527593f5b7cd79b61b01a\nuget-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\2d8bab32b01527593f5b7cd79b61b01a\nuget-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\43be2cdf77f3df686ac23c92a148f1bb\nuget-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\034aadbc8d0b1a4b3f4a056593281888\nuget-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\bradg\Desktop\SpaceShooter\space_shooter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\nuget-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4938359A-3CC5-38E8-939E-C8BE6DD1C0B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

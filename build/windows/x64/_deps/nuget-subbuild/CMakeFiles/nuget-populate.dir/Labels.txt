@@ -1,0 +1,15 @@
+# Target labels
+ nuget-populate
+# Source files and their labels
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/nuget-populate
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/034aadbc8d0b1a4b3f4a056593281888/nuget-populate.rule
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/43be2cdf77f3df686ac23c92a148f1bb/nuget-populate-complete.rule
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/2d8bab32b01527593f5b7cd79b61b01a/nuget-populate-build.rule
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/2d8bab32b01527593f5b7cd79b61b01a/nuget-populate-configure.rule
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/2d8bab32b01527593f5b7cd79b61b01a/nuget-populate-copyfile.rule
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/2d8bab32b01527593f5b7cd79b61b01a/nuget-populate-download.rule
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/2d8bab32b01527593f5b7cd79b61b01a/nuget-populate-install.rule
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/2d8bab32b01527593f5b7cd79b61b01a/nuget-populate-mkdir.rule
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/2d8bab32b01527593f5b7cd79b61b01a/nuget-populate-patch.rule
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/2d8bab32b01527593f5b7cd79b61b01a/nuget-populate-test.rule
+C:/Users/bradg/Desktop/SpaceShooter/space_shooter/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/2d8bab32b01527593f5b7cd79b61b01a/nuget-populate-update.rule
