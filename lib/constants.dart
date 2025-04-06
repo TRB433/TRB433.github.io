@@ -4,7 +4,7 @@ const double playerStartY = 100;
 const double playerSize = 50;
 const int playerStartHealth = 3;
 const double playerSpeed = 400;
-const double playerShootingSpeed = 0.25;
+const double playerShootingSpeed = 0.5;
 const double scorePerSecond = 10;
 
 /// Background and foreground related constants.

@@ -109,16 +109,12 @@ class Player extends SpriteAnimationComponent
     _velocity.setZero();
   }
 
-  /// Starts shooting bullets.
-  void shootBullet() {
-    if (!_bulletSpawner.timer.isRunning()) {
-      _bulletSpawner.timer.start();
-    }
-  }
-
-  /// Stops shooting bullets.
   void stopShooting() {
     _bulletSpawner.timer.stop();
+  }
+
+  void startShooting() {
+    _bulletSpawner.timer.start();
   }
 
   /// Resets the player to initial state.
@@ -127,6 +123,7 @@ class Player extends SpriteAnimationComponent
     position = Vector2(playerStartX, playerStartY);
     _playerState = PlayerState.alive;
     _score = 0;
+    startShooting();
   }
 
   /// Gets the current score as a formatted string.

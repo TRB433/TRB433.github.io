@@ -23,6 +23,7 @@ class SpaceShooter extends FlameGame
   late TextComponent _controlsText;
   late TextComponent _gameOverText;
   bool _isGameOver = false;
+  bool hasInteracted = false;
 
   @override
   FutureOr<void> onLoad() async {
@@ -67,9 +68,6 @@ class SpaceShooter extends FlameGame
       'music.mp3',
     ]);
 
-    // Start background music
-    audio.FlameAudio.loopLongAudio('music.mp3', volume: 0.1);
-
     // Add score and health UI
     _scoreText = TextComponent(
       text: '0',
@@ -102,6 +100,12 @@ class SpaceShooter extends FlameGame
     KeyEvent event,
     Set<LogicalKeyboardKey> keysPressed,
   ) {
+    if (!hasInteracted) {
+      hasInteracted = true;
+      _player.startShooting();
+      audio.FlameAudio.loopLongAudio('music.mp3', volume: 0.1);
+    }
+
     final isKeyHolding = event is KeyRepeatEvent;
     final isKeyDown = event is KeyDownEvent;
 
@@ -116,10 +120,6 @@ class SpaceShooter extends FlameGame
           _player.playerState == PlayerState.alive) {
         _player.moveDown();
       }
-      if (keysPressed.contains(LogicalKeyboardKey.space) &&
-          _player.playerState == PlayerState.alive) {
-        _player.shootBullet();
-      }
       if (keysPressed.contains(LogicalKeyboardKey.enter) &&
           _player.playerState == PlayerState.dead) {
         _player.reset();
@@ -129,7 +129,6 @@ class SpaceShooter extends FlameGame
       return KeyEventResult.handled;
     } else {
       _player.stopMoving();
-      _player.stopShooting();
       return KeyEventResult.handled;
     }
   }
@@ -145,6 +144,7 @@ class SpaceShooter extends FlameGame
     if (_player.playerState == PlayerState.dead) {
       if (!_isGameOver) {
         _isGameOver = true;
+        _player.stopShooting();
         _enemyManager.clearEnemies();
         _gameOverText = TextComponent(
           text: 'GAME OVER! \n Press Enter to Restart',
