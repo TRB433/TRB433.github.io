@@ -59,10 +59,11 @@ class Player extends SpriteAnimationComponent
         );
       },
       period: playerShootingSpeed,
-      autoStart: false,
+      autoStart: true,
       selfPositioning: true,
     );
 
+    shootBullet();
     gameRef.add(_bulletSpawner);
 
     add(RotateEffect.by(pi / 2, EffectController(duration: 0)));
