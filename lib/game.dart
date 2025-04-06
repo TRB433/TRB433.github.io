@@ -22,7 +22,6 @@ class SpaceShooter extends FlameGame
   late TextComponent _healthText;
   late TextComponent _controlsText;
   late TextComponent _gameOverText;
-  bool hasInteracted = false;
   bool _isGameOver = false;
 
   @override
@@ -68,6 +67,9 @@ class SpaceShooter extends FlameGame
       'music.mp3',
     ]);
 
+    // Start background music
+    audio.FlameAudio.loopLongAudio('music.mp3', volume: 0.1);
+
     // Add score and health UI
     _scoreText = TextComponent(
       text: '0',
@@ -84,7 +86,7 @@ class SpaceShooter extends FlameGame
     add(_healthText);
 
     _controlsText = TextComponent(
-      text: 'W/S or Arrow Keys to move',
+      text: 'W/S or Arrow Keys to move\nHold space to shoot',
       scale: Vector2.all(1),
       position: Vector2(
         10,
@@ -100,11 +102,6 @@ class SpaceShooter extends FlameGame
     KeyEvent event,
     Set<LogicalKeyboardKey> keysPressed,
   ) {
-    if (!hasInteracted) {
-      hasInteracted = true;
-      audio.FlameAudio.loopLongAudio('music.mp3', volume: 0.1);
-    }
-
     final isKeyHolding = event is KeyRepeatEvent;
     final isKeyDown = event is KeyDownEvent;
 
@@ -118,6 +115,10 @@ class SpaceShooter extends FlameGame
               keysPressed.contains(LogicalKeyboardKey.keyS)) &&
           _player.playerState == PlayerState.alive) {
         _player.moveDown();
+      }
+      if (keysPressed.contains(LogicalKeyboardKey.space) &&
+          _player.playerState == PlayerState.alive) {
+        _player.shootBullet();
       }
       if (keysPressed.contains(LogicalKeyboardKey.enter) &&
           _player.playerState == PlayerState.dead) {
