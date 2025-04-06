@@ -84,7 +84,7 @@ class SpaceShooter extends FlameGame
     add(_healthText);
 
     _controlsText = TextComponent(
-      text: 'W/S or Arrow Keys to move\nHold space to shoot',
+      text: 'W/S or Arrow Keys to move',
       scale: Vector2.all(1),
       position: Vector2(
         10,
