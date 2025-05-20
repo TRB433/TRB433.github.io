@@ -71814,7 +71814,7 @@ return B.c.b1(r,s)},
 $S:445}
 A.Fr.prototype={
 R(a){var s=null
-return new A.vf(new A.va(s),"Flutter Demo",A.qf(s,s,B.iW,A.a7(a).ok.a7c("Roboto"),s),s)}}
+return new A.vf(new A.va(s),"EEMUA 191 Chart Plotter",A.qf(s,s,B.iW,A.a7(a).ok.a7c("Roboto"),s),s)}}
 A.va.prototype={
 aj(){var s=null,r=$.ai()
 return new A.Fe(new A.xz(B.jD,r),new A.xz(B.jD,r),A.eB("",s,s,s,s,s,s),A.eB("",s,s,s,s,s,s))}}
